@@ -1,12 +1,13 @@
-# GOWIN FPGA
-
 <a name="top"></a>
+# GOWIN FPGA 
 
 * [Tang Nano 9K FPGA](#tang)
   * [Some Intro](#int)
   * [Characteristic](#chara)
   * [On-board Function block](#on) 
 * [CPU](#cpu)
+  * [Maing Blocks](#block)
+
 
 ## _Tang Nano 9K FPGA_ <a name="tang"></a> 
 >(Gowin's LittleBee family the GW1NR-9)
@@ -25,7 +26,7 @@ The following documents are very useful for learning FPGA and even if you have a
 
 Schematic - [Tang_Nano_9K](https://github.com/tem-str/Gowin/files/12047179/Tang_Nano_9K_3672_schematic.pdf)
 
-[👆](#top) 
+[👆](#top)
 
 ###  Some Intro <a name="int"></a> 
 
@@ -90,6 +91,15 @@ end
 assign led = ~ledCounter;
 endmodule
 ```
-[👆](#top)
+[👆](#top) 
 
 ## CPU <a name="cpu"></a>
+
+### Main Blocks <a name="block"></a>
+
+- [ ] ALU
+- [ ] MAIN CPU
+- [ ] SYSTEM_CLOCK
+- [ ] MEMORY
+- [ ] REGISTER
+- [ ] PROGRAMM COUNTER
