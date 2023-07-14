@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/work/Gowin/pll_led/src/LED.v",
+  "InstLine" : 1,
+  "InstName" : "led",
+  "ModuleFile" : "D:/work/Gowin/pll_led/src/LED.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "led",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/work/Gowin/pll_led/src/LED.v",
+    "InstLine" : 12,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "D:/work/Gowin/pll_led/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   }
+  ]
+ }
+]

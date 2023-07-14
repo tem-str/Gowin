@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="led" Register="39" Alu="7" Lut="62">
+    <SubModule name="your_instance_name"/>
+    <SubModule name="gw_gao_inst_0" Register="246" Alu="10" Lut="350" Bsram="1" Ssram="2"/>
+</Module>

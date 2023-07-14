@@ -1,0 +1,12 @@
+-d D:\work\Gowin\pll_led\impl\gwsynthesis\9K_LED_project.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst D:\work\Gowin\pll_led\src\9K_LED_project.cst
+-cfg D:\work\Gowin\pll_led\impl\pnr\device.cfg
+-gao_crc 1111000000111100
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-rtl_gao
