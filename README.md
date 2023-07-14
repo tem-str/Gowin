@@ -76,6 +76,8 @@ First of all, we are interesting in the integrated chip GW1NR-9, but not the who
 
 [👆](#top) 
 
+<a name="on"></a> 
+
 <h3 align="center"> On-board Function block </h3>
 
 ***
@@ -111,6 +113,8 @@ endmodule
 [👆](#top) 
 
 ## CPU <a name="cpu"></a>
+
+<a name="block"></a> 
 
 <h3 align="center"> Main Blocks </h3>
 
