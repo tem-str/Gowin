@@ -35,9 +35,7 @@ Schematic - [Tang_Nano_9K](https://github.com/tem-str/Gowin/files/12047179/Tang_
 
 <a align="right" ></a> [👆](#top)
 
-<a name="int"></a> 
-
-<h3 align="center"> Some Intro </h3>
+<h3 align="center"> Some Intro </h3>  <a name="int"></a> 
 
 ***
 
@@ -49,9 +47,7 @@ First of all, we are interesting in the integrated chip GW1NR-9, but not the who
 
 [👆](#top)
 
-<a name="chara"></a>
-
-<h3 align="center"> Characteristic </h3>
+<h3 align="center"> Characteristic </h3> <a name="chara"></a>
 
 ***
 
@@ -74,11 +70,9 @@ First of all, we are interesting in the integrated chip GW1NR-9, but not the who
 | Button                 |	2 programmable buttons for users|
 | LED	                  | Onboard 6 programmable LEDs|
 
-[👆](#top) 
+[👆](#top)  
 
-<a name="on"></a> 
-
-<h3 align="center"> On-board Function block </h3>
+<h3 align="center"> On-board Function block </h3> <a name="on"></a>
 
 ***
 
@@ -114,9 +108,7 @@ endmodule
 
 ## CPU <a name="cpu"></a>
 
-<a name="block"></a> 
-
-<h3 align="center"> Main Blocks </h3>
+<h3 align="center"> Main Blocks </h3> <a name="block"></a> 
 
 ***
 
