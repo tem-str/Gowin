@@ -43,72 +43,29 @@ Schematic - [Tang_Nano_9K](https://github.com/tem-str/Gowin/files/12047179/Tang_
 
 ![clip_image008](https://github.com/tem-str/Gowin/assets/74252239/0cb2a086-5053-447b-8d4c-86b3dae595d7)
 
-> all user gide [*here*](https://dl.sipeed.com/shareURL/TANG/Nano%209K/6_Chip_Manual/EN/General%20Guide)
+> All user gide working with gowin_fpga [*here*](https://dl.sipeed.com/shareURL/TANG/Nano%209K/6_Chip_Manual/EN/General%20Guide)
 
-### Gowin_SP RAM (from IP Core Generator) 
-
-> Work frequency - 40 MHz 
+We try to realize basic CPU on this board.    
 
 ```Verilog
-always @ (negedge ram_clk or posedge rst_n or posedge cs0) begin
-if (rst_n) begin 
-    ram_state   <= 4'd0; 
-    ram_wrea    <= 1'b0;
-    ram_radd    <= 13'h000;
-    
-    data_tmp    <= 32'h00000;
-    ram_data_in <= 16'h0000;
-    ram_data_out<= 16'h0000;
-end 
-else if ((!cs0)|ram_cea) begin
-    case(ram_state)
-        4'd0: begin /* Reading */
-                ram_radd     <= ram_add_cnt;
-                ram_data_out <= 16'h0000; 
-                ram_data_in  <= 16'h0000; 
-                data_tmp     <= 32'h00000; 
-                ram_wrea     <= 1'b0;
-                ram_state    <= 4'd1;
-           end
-        4'd1: begin /* Reading */
-                ram_radd     <= ram_radd; 
-                ram_data_out <= ram_do;
-                ram_wrea     <= 1'b0;
-                ram_state    <= 4'd2;
-           end
-        4'd2: begin /* Reading */ 
-                ram_radd     <= ram_radd;   
-                ram_wrea     <= 1'b0;
-                if (!mem_clr) data_tmp <= data_adc_r;  
-                else          data_tmp <= (ram_data_out + data_adc_r)/2; 
-                ram_state    <= 4'd3;
-           end
-        4'd3: begin /* Writing */  
-                ram_radd     <= ram_radd; 
-                ram_data_in  <= data_tmp[15:0]; 
-                ram_wrea     <= 1'b1; 
-                ram_state    <= 4'd4;
-           end
-        4'd4: begin /* Reading */
-                ram_radd     <= ram_radd;
-                ram_data_in  <= ram_data_in;
-                ram_wrea     <= 1'b0;
-                ram_state    <= (ram_done) ? 4'd0 : 4'd4; 
-           end
-        default: begin 
-                ram_wrea     <= 1'b0;
-                ram_state    <= 4'd0;
-           end  
-    endcase
-end
-else begin 
-    ram_state   <= 4'd0;
-    ram_wrea    <= 1'b0;
-    ram_radd    <= 13'h000;  
+module counter
+(
+    input clk,
+    output [5:0] led
+);
 
-    data_tmp    <= 32'h00000;
-    ram_data_in <= 16'h0000;
-    ram_data_out<= 16'h0000;
-end 
+localparam WAIT_TIME = 13500000;
+reg [5:0] ledCounter = 0;
+reg [23:0] clockCounter = 0;
+
+always @(posedge clk) begin
+    clockCounter <= clockCounter + 1;
+    if (clockCounter == WAIT_TIME) begin
+        clockCounter <= 0;
+        ledCounter <= ledCounter + 1;
+    end
 end
+
+assign led = ~ledCounter;
+endmodule
 ```
