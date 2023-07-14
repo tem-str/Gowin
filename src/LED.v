@@ -1,3 +1,4 @@
+/*    Start module   */
 module led (
     input sys_clk,          // clk input
     input sys_rst_n,        // reset input,
@@ -43,3 +44,4 @@ always @(posedge clk or negedge sys_rst_n) begin
 end
 
 endmodule
+/*   End module   */
