@@ -1,5 +1,12 @@
 # GOWIN FPGA
-## _Tang Nano 9K FPGA_ 
+
+* [Tang Nano 9K FPGA](#tang)
+  * [Some Intro](#int)
+  * [Characteristic](#chara)
+  * [On-board Function block](#on) 
+* [CPU](#cpu)
+
+## _Tang Nano 9K FPGA_ <a name="tang"></a> 
 >(Gowin's LittleBee family the GW1NR-9)
 
 
@@ -16,7 +23,7 @@ The following documents are very useful for learning FPGA and even if you have a
 
 Schematic - [Tang_Nano_9K](https://github.com/tem-str/Gowin/files/12047179/Tang_Nano_9K_3672_schematic.pdf)
 
-### ✔ Some Intro
+### ✔ Some Intro <a name="int"></a> 
 
 First of all, we are interesting in the integrated chip GW1NR-9, but not the whole board. The Tand Nano 9K is just a handy board with the necessary interface for learning, so let's get to know her a little.  
 
@@ -24,7 +31,7 @@ First of all, we are interesting in the integrated chip GW1NR-9, but not the who
 
 >This repository was created just to try different projects with the GowinFPGA, test all communication protocol, working with Memory (Flash/RAM) and order opportunities of the board. In the future, this knowledge will be useful for other projects
 
-### ✔ Characteristic
+### ✔ Characteristic <a name="chara"></a> 
 
 |ITEM|VALUE|
 | --------------------- |:-------:|
@@ -45,7 +52,7 @@ First of all, we are interesting in the integrated chip GW1NR-9, but not the who
 | Button                 |	2 programmable buttons for users|
 | LED	                  | Onboard 6 programmable LEDs|
 
-### ✔ On-board Function block
+### ✔ On-board Function block <a name="on"></a> 
 
 ![clip_image008](https://github.com/tem-str/Gowin/assets/74252239/0cb2a086-5053-447b-8d4c-86b3dae595d7)
 
@@ -75,4 +82,4 @@ end
 assign led = ~ledCounter;
 endmodule
 ```
-## CPU 
+## CPU <a name="cpu"></a>
