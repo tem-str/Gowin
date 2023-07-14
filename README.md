@@ -1,24 +1,30 @@
 # GOWIN FPGA
-### Tand Nano 9K FPGA   
+## _Tang Nano 9K FPGA_ 
 >(Gowin's LittleBee family the GW1NR-9)
+
 
 Tang nano 9K is a development board based on Gowin GW1NR-9 FPGA chip.It equips with HDMI connector, RGB screen interface connector, SPI screen connector, 32Mbit SPI flash and 6 LEDs, so users can use it for FPGA verification, risc-v soft core verification and basic function verification easily and quickly. Its 8640 LUT4 logic units can not only be used for various complex logic circuits designing, but also used for running a complete PicoRV soft core. It also meets various needs of users, such as learning FPGA, verifying soft core and further design.
 
->Language: *FPGA* -	Verilog HDL/Verilog	  |   *MCU* - C/C++ 
+>*Language:* -	Verilog HDL/Verilog	
 
-The following documents are very useful for learning FPGA.
+The following documents are very useful for learning FPGA and even if you have a lot of development experience, I recommend reading these documents, since this FPGA has some of its own features.
 
 - SUG949-1.1E_Gowin HDL Coding User Guide.pdf
 - UG286-1.9.1E_Gowin Clock User Guide.pdf
 
+> The related documents you can find at [www.gowinsemi.com](https://www.gowinsemi.com/en/)
 
 Schematic - [Tang_Nano_9K](https://github.com/tem-str/Gowin/files/12047179/Tang_Nano_9K_3672_schematic.pdf)
+
+### ✔ Some Intro
+
+First of all, we are interesting in the integrated chip GW1NR-9, but not the whole board. The Tand Nano 9K is just a handy board with the necessary interface for learning, so let's get to know her a little.  
 
 ![tang-nano-registers](https://github.com/tem-str/Gowin/assets/74252239/226d59f3-78f2-4465-80f5-c77d2d13a3d7)
 
 >This repository was created just to try different projects with the GowinFPGA, test all communication protocol, working with Memory (Flash/RAM) and order opportunities of the board. In the future, this knowledge will be useful for other projects
 
-## Characteristic
+### ✔ Characteristic
 
 |ITEM|VALUE|
 | --------------------- |:-------:|
@@ -32,21 +38,21 @@ Schematic - [Tang_Nano_9K](https://github.com/tem-str/Gowin/files/12047179/Tang_
 | 18 x 18 Multiplier	    |   20    |
 | SPI FLASH	            | 32M-bit |
 | Number of PLL	        |   2     |
-| Display interface	    | HDMI interface, SPI screen interface and RGB screen interface |
-| Debugger	Onboard       | BL702 chip provides USB-JTAG and USB-UART functions for GW1NR-9 |
-| IO	                    | • support 4mA、8mA、16mA、24mA other driving capabilities|
+| Display interface	    | HDMI, SPI screen and RGB screen |
+| Debugger	Onboard       |  USB-JTAG and USB-UART  |
+| IO	                    |  4mA, 8mA, 16mA, 24mA |
 | Connector	            | TF card slot, 2x24P 2.54mm Header pads |
 | Button                 |	2 programmable buttons for users|
 | LED	                  | Onboard 6 programmable LEDs|
 
-## On-board Function block
+### ✔ On-board Function block
 
 ![clip_image008](https://github.com/tem-str/Gowin/assets/74252239/0cb2a086-5053-447b-8d4c-86b3dae595d7)
 
 > All user gide working with gowin_fpga [*here*](https://dl.sipeed.com/shareURL/TANG/Nano%209K/6_Chip_Manual/EN/General%20Guide)
-
-We try to realize basic CPU on this board.    
-
+  
+ The goal of our project - try to make a bacis CPU, after testing a few simple projects.✒
+ 
 ```Verilog
 module counter
 (
@@ -69,3 +75,4 @@ end
 assign led = ~ledCounter;
 endmodule
 ```
+## CPU 
