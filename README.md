@@ -14,7 +14,7 @@ The following documents are very useful for learning FPGA.
 
 Schematic - [Tang_Nano_9K](https://github.com/tem-str/Gowin/files/12047179/Tang_Nano_9K_3672_schematic.pdf)
 
-![tang-nano-registers](https://github.com/tem-str/Gowin/assets/74252239/bf46bfb7-56ba-4f4c-b935-ba00d73a5b5a)
+![tang-nano-registers](https://github.com/tem-str/Gowin/assets/74252239/226d59f3-78f2-4465-80f5-c77d2d13a3d7)
 
 >This repository was created just to try different projects with the GowinFPGA, test all communication protocol, working with Memory (Flash/RAM) and order opportunities of the board. In the future, this knowledge will be useful for other projects
 
@@ -41,7 +41,7 @@ Schematic - [Tang_Nano_9K](https://github.com/tem-str/Gowin/files/12047179/Tang_
 
 ## On-board Function block
 
-![clip_image008](https://github.com/tem-str/Gowin/assets/74252239/4e8274fe-1abc-4a11-b5ba-d65055577815)
+![clip_image008](https://github.com/tem-str/Gowin/assets/74252239/0cb2a086-5053-447b-8d4c-86b3dae595d7)
 
 > all user gide [*here*](https://dl.sipeed.com/shareURL/TANG/Nano%209K/6_Chip_Manual/EN/General%20Guide)
 
