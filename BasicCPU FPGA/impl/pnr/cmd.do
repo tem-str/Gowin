@@ -1,0 +1,10 @@
+-d D:\work\Gowin\BasicCPU FPGA\impl\gwsynthesis\BasicCPU FPGA.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst D:\work\Gowin\BasicCPU FPGA\src\BasicCPU FPGA.cst
+-cfg D:\work\Gowin\BasicCPU FPGA\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

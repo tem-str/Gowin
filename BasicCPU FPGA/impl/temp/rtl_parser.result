@@ -1,0 +1,92 @@
+[
+ {
+  "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+  "InstLine" : 5,
+  "InstName" : "cpu",
+  "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+  "ModuleLine" : 5,
+  "ModuleName" : "cpu",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 69,
+    "InstName" : "system_clock",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/clock.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "clock"
+   },
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 76,
+    "InstName" : "pc",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/programcounter.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "programcounter"
+   },
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 87,
+    "InstName" : "register_mem",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/register.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "register"
+   },
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 97,
+    "InstName" : "register_instruction",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/register.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "register"
+   },
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 107,
+    "InstName" : "register_a",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/register.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "register"
+   },
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 117,
+    "InstName" : "register_b",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/register.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "register"
+   },
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 127,
+    "InstName" : "register_output",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/register.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "register"
+   },
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 137,
+    "InstName" : "alu",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/alu.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "alu"
+   },
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 151,
+    "InstName" : "mem",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/memory.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "memory"
+   },
+   {
+    "InstFile" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+    "InstLine" : 160,
+    "InstName" : "controller",
+    "ModuleFile" : "D:/work/Gowin/BasicCPU FPGA/src/controller.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "controller"
+   }
+  ]
+ }
+]

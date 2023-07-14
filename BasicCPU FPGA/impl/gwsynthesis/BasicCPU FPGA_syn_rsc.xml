@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="cpu" Lut="7">
+    <SubModule name="system_clock" Register="25" Lut="49"/>
+    <SubModule name="pc" Register="8" Lut="22"/>
+    <SubModule name="register_mem" Register="4" Lut="1"/>
+    <SubModule name="register_instruction" Register="8" Lut="1"/>
+    <SubModule name="register_a" Register="8" Lut="1"/>
+    <SubModule name="register_b" Register="8" Lut="1"/>
+    <SubModule name="register_output" Register="6" Lut="1"/>
+    <SubModule name="alu" Register="10" Alu="9" Lut="9"/>
+    <SubModule name="mem" Lut="15"/>
+    <SubModule name="controller" Register="23" Lut="96"/>
+</Module>

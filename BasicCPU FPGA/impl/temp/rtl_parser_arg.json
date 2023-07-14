@@ -1,0 +1,44 @@
+{
+ "Files" : [
+  {
+   "Path" : "D:/work/Gowin/BasicCPU FPGA/src/alu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/Gowin/BasicCPU FPGA/src/clock.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/Gowin/BasicCPU FPGA/src/constants.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/Gowin/BasicCPU FPGA/src/controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/Gowin/BasicCPU FPGA/src/cpu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/Gowin/BasicCPU FPGA/src/memory.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/Gowin/BasicCPU FPGA/src/programcounter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/work/Gowin/BasicCPU FPGA/src/register.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/work/Gowin/BasicCPU FPGA/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
