@@ -35,7 +35,11 @@ Schematic - [Tang_Nano_9K](https://github.com/tem-str/Gowin/files/12047179/Tang_
 
 <a align="right" ></a> [👆](#top)
 
-###  Some Intro <a name="int"></a> 
+<a name="int"></a> 
+
+<h3 align="center"> Some Intro </h3>
+
+***
 
 First of all, we are interesting in the integrated chip GW1NR-9, but not the whole board. The Tand Nano 9K is just a handy board with the necessary interface for learning, so let's get to know her a little.  
 
@@ -45,7 +49,11 @@ First of all, we are interesting in the integrated chip GW1NR-9, but not the who
 
 [👆](#top)
 
-###  Characteristic <a name="chara"></a> 
+<a name="chara"></a>
+
+<h3 align="center"> Characteristic </h3>
+
+***
 
 |ITEM|VALUE|
 | --------------------- |:-------:|
@@ -66,9 +74,11 @@ First of all, we are interesting in the integrated chip GW1NR-9, but not the who
 | Button                 |	2 programmable buttons for users|
 | LED	                  | Onboard 6 programmable LEDs|
 
-[👆](#top)
+[👆](#top) 
 
-###  On-board Function block <a name="on"></a> 
+<h3 align="center"> On-board Function block </h3>
+
+***
 
 ![clip_image008](https://github.com/tem-str/Gowin/assets/74252239/0cb2a086-5053-447b-8d4c-86b3dae595d7)
 
@@ -102,7 +112,9 @@ endmodule
 
 ## CPU <a name="cpu"></a>
 
-### Main Blocks <a name="block"></a>
+<h3 align="center"> Main Blocks </h3>
+
+***
 
 - [ ] ALU
 - [ ] MAIN CPU
